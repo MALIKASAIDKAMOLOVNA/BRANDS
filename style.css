@@ -1,0 +1,222 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #E5E5E5;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 43px;
+    padding: 19px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    margin-right: 340px;
+}
+.text li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B321D;
+    transition: 1s;
+}
+.text li a:hover{
+    color: #c8600c;
+}
+.text li a:active{
+    color: rgb(45, 5, 69);
+}
+.creating{
+    padding-top: 124px;
+}
+.creating h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4B321D;
+    padding-bottom: 136px;
+}
+.images{
+    width: 1400px;
+    height: 928px;
+}
+.working{
+    flex-direction: column;
+}
+.working h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4B321D;
+    padding-top: 84px;
+    padding-left: 60px;
+    padding-bottom: 56px;
+}
+.btn{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4B321D;
+    align-self: start;
+    margin-left: 60px;
+    border: 2px solid #4B321D;
+    border-radius: 3px;
+    padding: 11px 17px;
+    background: transparent;
+}
+.btn:hover{
+    background: #ba651f;
+    color: rgb(65, 62, 62);
+}
+.btn:active{
+    background: rgb(65, 62, 62);
+    color: #ba651f;
+    opacity: 0.8;
+}
+.bg-project{
+    display: flex;
+    align-items: center;
+}
+.project_left img{
+    width: 590px;
+    height: 886px;
+    margin-top: 89px;
+}
+.project_right h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    color: #4B321D;
+    padding-left: 100px;
+    padding-bottom: 45px;
+}
+.project_right a{
+    margin-left: 100px;
+}
+.bg-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 89px;
+}
+.about_left h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: #4B321D;
+    padding-bottom: 45px;
+}
+.about_left a{
+    margin-left: 0;
+}
+.about_right{
+    width: 590px;
+    height: 886px;
+    margin-bottom: 90px;
+}
+.blog{
+    background: #4B321D;
+    border-radius: 16px;
+}
+.blog h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 100px;
+    color: #F1F1EB;
+    padding-top: 89px;
+    padding-left: 60px;
+}
+.blog p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #F1F1EB;
+    padding-top: 45px;
+    padding-left: 60px;
+    padding-bottom: 110px;
+}
+.bg-likes h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4B321D;
+    padding-top: 84px;
+    padding-bottom: 56px;
+}
+.bg-likes a{
+    margin-left: 0;
+}
+.bg-likes{
+    margin-bottom: 90px;
+}
+.bg-contact{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 180px;
+}
+.chil_left h4{
+    padding-bottom: 83px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B321D;
+    padding-right: 508px;
+}
+.list li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B321D;
+    transition: 1s;
+}
+.list li a:hover{
+    color: #c8600c;
+}
+.list li a:active{
+    color: rgb(45, 5, 69);
+}
+.child:not(:last-child){
+    padding-right: 178px;
+}
